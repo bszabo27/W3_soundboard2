@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/peasantwp2"
+    android:alpha="0.99">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="by Jig"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDooh" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="(ノಠ益ಠ)ノ彡┻━┻"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonDooh"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDooh" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="4dp"
+        android:text="┬─┬ノ( º _ ºノ)"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/buttonIfYouWant"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIfYouWant" />
+
+    <Button
+        android:id="@+id/buttonNooneElse"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="372dp"
+        android:text="Noone else is available"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonThatsIt"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="That's it, I'm dead."
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonNooneElse"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonReadyToWork"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Ready to work"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonThatsIt"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonAaaaahia"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Aaaahia!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonReadyToWork"
+        android:alpha="0.65" />
+
+    <Button
+        android:id="@+id/buttonYouAreTheKing"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="..I didn't vote for you!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAaaaahia"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonWeFoundAWitch"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="We found a witch!.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonRepressed"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Help I'm being repressed!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWeFoundAWitch"
+        android:alpha="0.65" />
+
+    <Button
+        android:id="@+id/buttonAHorseKickedMe"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="A horse kicked me once.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRepressed"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonDooh"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Do'oh"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAHorseKickedMe"
+        android:alpha="0.65" />
+
+    <Button
+        android:id="@+id/buttonYesMLord2"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Yes m'Lord."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonAllRight"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="All right"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonYesMLord2"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonOffIGoThen"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Off I go then"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAllRight"
+        android:alpha="0.65" />
+
+    <Button
+        android:id="@+id/buttonIGuessICan"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="I guess I can"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonOffIGoThen"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonIfYouWant"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="If you want.."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonIGuessICan"
+        android:alpha="0.65"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_marginTop="4dp"
+        android:text="(╯°□°）╯︵ ┻━┻"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/buttonWhu"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWhu" />
+
+    <Button
+        android:id="@+id/buttonWorkWork"
+        android:layout_width="180dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Work Work"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonYesMLord"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Yes m'Lord?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWorkWork"
+        android:alpha="0.65" />
+
+    <Button
+        android:id="@+id/buttonWhatIsIt"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="What is it?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonYesMLord"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonMoarWork"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Moar Work?!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonWhatIsIt"
+        android:alpha="0.65"/>
+
+    <Button
+        android:id="@+id/buttonWhu"
+        android:layout_width="180dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Whu??"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonMoarWork"
+        android:alpha="0.65" />
+
+</android.support.constraint.ConstraintLayout>
